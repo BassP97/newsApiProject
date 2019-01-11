@@ -56,7 +56,7 @@ def generatePdf(articles):
         with doc.create(Section(article["title"])):
             doc.append(article["description"])
             doc.append(article["url"])
-    doc.generate_tex("newsArticles")
+    doc.generate_pdf("newsArticles")
 
 
 def main():
