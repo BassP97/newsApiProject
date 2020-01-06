@@ -1,5 +1,5 @@
 # newsApiProject
-A program that uses NewsAPI to get relevant news stories and write them to a latex file (that can then be compiled and emailed, read, etc...)
+A program that uses NewsAPI to get relevant news stories, writing them to a latex file (that can then be compiled and emailed, read, etc...)
 
 Requires a newsAPI key, an installed TEX distribution, and the pylatex package (which can be installed via pip). This program 
 will NOT work "out of the box" - it requires an additional file called api.py that contains a newsAPI key stored in a variable
